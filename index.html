@@ -1,278 +1,283 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>مؤتمر الاستدامة والمناخ - Sustainability Conference</title>
-    <link rel="stylesheet" href="./style.css" />
-  </head>
-  <body>
-    <!-- Background Animation Layer -->
-    <div class="background-animation"></div>
 
-    <!-- Language Toggle Button -->
-    <div class="language-toggle">
-      <button class="lang-btn active" data-lang="ar" onclick="switchLanguage('ar')">العربية</button>
-      <button class="lang-btn" data-lang="en" onclick="switchLanguage('en')">English</button>
-    </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>مؤتمر الاستدامة والمناخ - Sustainability Conference</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
 
-    <!-- ===================================
+<body>
+  <!-- Background Animation Layer -->
+  <div class="background-animation"></div>
+
+  <!-- Language Toggle Button -->
+  <div class="language-toggle">
+    <button class="lang-btn active" data-lang="ar" onclick="switchLanguage('ar')">العربية</button>
+    <button class="lang-btn" data-lang="en" onclick="switchLanguage('en')">English</button>
+  </div>
+
+  <!-- ===================================
          HEADER SECTION
          Edit conference details here
          =================================== -->
-    <header class="header">
-      <div class="header-content">
-        <!-- Logo Section -->
+  <header class="header">
+    <div class="header-content">
+      <!-- Logo Section -->
 
-        <div class="logo-wrapper">
-          <img class="fra-logo" src="./لوجو الهيئة.png" alt="لوجو الهيئة" />
-        </div>
-        <!-- Conference Title (Arabic) -->
-        <h1 class="conference-title" data-lang-content="ar">
-          <span class="leaf-decoration">🌿</span>
-          أبطال إفصاحات الاستدامة والمناخ 2025
-          <span class="leaf-decoration">🌿</span>
-        </h1>
+      <div class="logo-wrapper">
+        <img class="fra-logo" src="./لوجو الهيئة.png" alt="لوجو الهيئة" />
+      </div>
+      <!-- Conference Title (Arabic) -->
+      <h1 class="conference-title" data-lang-content="ar">
+        <span class="leaf-decoration">🌿</span>
+        أبطال إفصاحات الاستدامة والمناخ 2025
+        <span class="leaf-decoration">🌿</span>
+      </h1>
 
-        <!-- Conference Title (English) -->
-        <h1 class="conference-title hidden" data-lang-content="en">
-          <span class="leaf-decoration">🌿</span>
-          FRA Sustainability & Climate Disclosures Champions 2025
-          <span class="leaf-decoration">🌿</span>
-        </h1>
+      <!-- Conference Title (English) -->
+      <h1 class="conference-title hidden" data-lang-content="en">
+        <span class="leaf-decoration">🌿</span>
+        FRA Sustainability & Climate Disclosures Champions 2025
+        <span class="leaf-decoration">🌿</span>
+      </h1>
 
-        <!-- Organizer (Arabic) -->
-        <p class="conference-subtitle" data-lang-content="ar">تنظيم: الهيئة العامة للرقابة المالية</p>
+      <!-- Organizer (Arabic) -->
+      <p class="conference-subtitle" data-lang-content="ar">تنظيم: الهيئة العامة للرقابة المالية</p>
 
-        <!-- Organizer (English) -->
-        <p class="conference-subtitle hidden" data-lang-content="en">Organized by: Financial Regulatory Authority</p>
+      <!-- Organizer (English) -->
+      <p class="conference-subtitle hidden" data-lang-content="en">Organized by: Financial Regulatory Authority</p>
 
-        <!-- Conference Details -->
-        <div class="conference-details" data-lang-content="ar">
-          <!-- <div class="detail-item">
+      <!-- Conference Details -->
+      <div class="conference-details" data-lang-content="ar">
+        <!-- <div class="detail-item">
                     <div class="detail-label">برعاية</div>
                     <div class="detail-value">xxxxx</div>
                 </div> -->
-          <div class="detail-item">
-            <div class="detail-label">التاريخ</div>
-            <div class="detail-value">1 ديسمبر 2025</div>
-          </div>
-          <div class="detail-item">
-            <div class="detail-label">المكان</div>
-            <div class="detail-value">فندقxxxx</div>
-          </div>
+        <div class="detail-item">
+          <div class="detail-label">التاريخ</div>
+          <div class="detail-value">1 ديسمبر 2025</div>
         </div>
+        <div class="detail-item">
+          <div class="detail-label">المكان</div>
+          <div class="detail-value">فندقxxxx</div>
+        </div>
+      </div>
 
-        <!-- Conference Details (English) -->
-        <div class="conference-details hidden" data-lang-content="en">
-          <!-- <div class="detail-item">
+      <!-- Conference Details (English) -->
+      <div class="conference-details hidden" data-lang-content="en">
+        <!-- <div class="detail-item">
                     <div class="detail-label">Sponsored by</div>
                     <div class="detail-value">xxxxx</div>
                 </div> -->
-          <div class="detail-item">
-            <div class="detail-label">Date</div>
-            <div class="detail-value">1 December 2025</div>
-          </div>
-          <div class="detail-item">
-            <div class="detail-label">Location</div>
-            <div class="detail-value">hotel:xxxx</div>
-          </div>
+        <div class="detail-item">
+          <div class="detail-label">Date</div>
+          <div class="detail-value">1 December 2025</div>
+        </div>
+        <div class="detail-item">
+          <div class="detail-label">Location</div>
+          <div class="detail-value">hotel:xxxx</div>
         </div>
       </div>
-    </header>
+    </div>
+  </header>
 
-    <!-- ===================================
+  <!-- ===================================
          MAIN CONTENT - AGENDA TIMELINE
          =================================== -->
-    <main class="container">
-      <!-- Section Title (Arabic) -->
-      <h2 class="section-title" data-lang-content="ar">جدول الأعمال</h2>
+  <main class="container">
+    <!-- Section Title (Arabic) -->
+    <h2 class="section-title" data-lang-content="ar">جدول الأعمال</h2>
 
-      <!-- Section Title (English) -->
-      <h2 class="section-title hidden" data-lang-content="en">Conference Agenda</h2>
+    <!-- Section Title (English) -->
+    <h2 class="section-title hidden" data-lang-content="en">Conference Agenda</h2>
 
-      <!-- Timeline (Arabic) -->
-      <div class="timeline" data-lang-content="ar">
-        <!-- Item 1: Registration -->
-        <div class="timeline-item" data-animate="scroll">
-          <div class="timeline-dot"></div>
-          <div class="timeline-content">
-            <div class="timeline-content-wrapper">
-              <div class="timeline-icon">📋</div>
-              <div>
-                <div class="timeline-time">9:00 - 9:30</div>
-                <div class="timeline-title">التسجيل والحضور</div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Item 2: Methodology Presentation -->
-        <div class="timeline-item" data-animate="scroll">
-          <div class="timeline-dot"></div>
-          <div class="timeline-content">
-            <div class="timeline-content-wrapper">
-              <div class="timeline-icon">📊</div>
-              <div>
-                <div class="timeline-time">9:30 - 11:10</div>
-                <div class="timeline-title">العرض</div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Item 3: Questions -->
-        <div class="timeline-item" data-animate="scroll">
-          <div class="timeline-dot"></div>
-          <div class="timeline-content">
-            <div class="timeline-content-wrapper">
-              <div class="timeline-icon">💬</div>
-              <div>
-                <div class="timeline-time">11:10 - 11:30</div>
-                <div class="timeline-title">أسئلة ومناقشة</div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Item 4: Coffee Break -->
-        <div class="timeline-item" data-animate="scroll">
-          <div class="timeline-dot"></div>
-          <div class="timeline-content">
-            <div class="timeline-content-wrapper">
-              <div class="timeline-icon">☕</div>
-              <div>
-                <div class="timeline-time">11:30 - 11:45</div>
-                <div class="timeline-title">استراحة قهوة</div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Item 5: Keynote Speech - HIGHLIGHTED -->
-        <div class="timeline-item highlight" data-animate="scroll">
-          <div class="timeline-dot"></div>
-          <div class="timeline-content">
-            <div class="timeline-content-wrapper">
-              <div class="timeline-icon">🎤</div>
-              <div>
-                <div class="timeline-time">11:45 - 12:00</div>
-                <div class="timeline-title">كلمة معالي الوزير الدكتور محمد فريد، رئيس مجلس إدارة الهيئة العامة للرقابة المالية</div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Item 6: Awards - HIGHLIGHTED -->
-        <div class="timeline-item highlight" data-animate="scroll">
-          <div class="timeline-dot"></div>
-          <div class="timeline-content">
-            <div class="timeline-content-wrapper">
-              <div class="timeline-icon">🏆</div>
-              <div>
-                <div class="timeline-time">12:00 - 12:15</div>
-                <div class="timeline-title">أبطال إفصاحات الاستدامة والمناخ</div>
-              </div>
+    <!-- Timeline (Arabic) -->
+    <div class="timeline" data-lang-content="ar">
+      <!-- Item 1: Registration -->
+      <div class="timeline-item" data-animate="scroll">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="timeline-content-wrapper">
+            <div class="timeline-icon">📋</div>
+            <div>
+              <div class="timeline-time">9:00 - 9:30</div>
+              <div class="timeline-title">التسجيل والحضور</div>
             </div>
           </div>
         </div>
       </div>
 
-      <!-- Timeline (English) -->
-      <div class="timeline hidden" data-lang-content="en">
-        <!-- Item 1: Registration -->
-        <div class="timeline-item" data-animate="scroll">
-          <div class="timeline-dot"></div>
-          <div class="timeline-content">
-            <div class="timeline-content-wrapper">
-              <div class="timeline-icon">📋</div>
-              <div>
-                <div class="timeline-time">9:00 - 9:30 AM</div>
-                <div class="timeline-title">Registration and Attendance</div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Item 2: Methodology Presentation -->
-        <div class="timeline-item" data-animate="scroll">
-          <div class="timeline-dot"></div>
-          <div class="timeline-content">
-            <div class="timeline-content-wrapper">
-              <div class="timeline-icon">📊</div>
-              <div>
-                <div class="timeline-time">9:30 - 11:10 AM</div>
-                <div class="timeline-title">The Presentation</div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Item 3: Questions -->
-        <div class="timeline-item" data-animate="scroll">
-          <div class="timeline-dot"></div>
-          <div class="timeline-content">
-            <div class="timeline-content-wrapper">
-              <div class="timeline-icon">💬</div>
-              <div>
-                <div class="timeline-time">11:10 - 11:30 AM</div>
-                <div class="timeline-title">Questions and Discussion</div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Item 4: Coffee Break -->
-        <div class="timeline-item" data-animate="scroll">
-          <div class="timeline-dot"></div>
-          <div class="timeline-content">
-            <div class="timeline-content-wrapper">
-              <div class="timeline-icon">☕</div>
-              <div>
-                <div class="timeline-time">11:30 - 11:45 AM</div>
-                <div class="timeline-title">Coffee Break</div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Item 5: Keynote Speech - HIGHLIGHTED -->
-        <div class="timeline-item highlight" data-animate="scroll">
-          <div class="timeline-dot"></div>
-          <div class="timeline-content">
-            <div class="timeline-content-wrapper">
-              <div class="timeline-icon">🎤</div>
-              <div>
-                <div class="timeline-time">11:45 AM - 12:00 PM</div>
-                <div class="timeline-title">Keynote Speech by H.E Dr. Mohamed Farid, Chairman of the Financial Regulatory Authority</div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Item 6: Awards - HIGHLIGHTED -->
-        <div class="timeline-item highlight" data-animate="scroll">
-          <div class="timeline-dot"></div>
-          <div class="timeline-content">
-            <div class="timeline-content-wrapper">
-              <div class="timeline-icon">🏆</div>
-              <div>
-                <div class="timeline-time">12:00 - 12:15 PM</div>
-                <div class="timeline-title">Sustainability and Climate Disclosure Champions</div>
-              </div>
+      <!-- Item 2: Methodology Presentation -->
+      <div class="timeline-item" data-animate="scroll">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="timeline-content-wrapper">
+            <div class="timeline-icon">📊</div>
+            <div>
+              <div class="timeline-time">9:30 - 11:10</div>
+              <div class="timeline-title">العرض</div>
             </div>
           </div>
         </div>
       </div>
-    </main>
 
-    <!-- ===================================
+      <!-- Item 3: Questions -->
+      <div class="timeline-item" data-animate="scroll">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="timeline-content-wrapper">
+            <div class="timeline-icon">💬</div>
+            <div>
+              <div class="timeline-time">11:10 - 11:30</div>
+              <div class="timeline-title">أسئلة ومناقشة</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Item 4: Coffee Break -->
+      <div class="timeline-item" data-animate="scroll">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="timeline-content-wrapper">
+            <div class="timeline-icon">☕</div>
+            <div>
+              <div class="timeline-time">11:30 - 11:45</div>
+              <div class="timeline-title">استراحة قهوة</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Item 5: Keynote Speech - HIGHLIGHTED -->
+      <div class="timeline-item" data-animate="scroll">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="timeline-content-wrapper">
+            <div class="timeline-icon">🎤</div>
+            <div>
+              <div class="timeline-time">11:45 - 12:00</div>
+              <div class="timeline-title">كلمة معالي الوزير الدكتور محمد فريد، رئيس مجلس إدارة الهيئة العامة للرقابة
+                المالية</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Item 6: Awards - HIGHLIGHTED -->
+      <div class="timeline-item" data-animate="scroll">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="timeline-content-wrapper">
+            <div class="timeline-icon">🏆</div>
+            <div>
+              <div class="timeline-time">12:00 - 12:15</div>
+              <div class="timeline-title">أبطال إفصاحات الاستدامة والمناخ</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Timeline (English) -->
+    <div class="timeline hidden" data-lang-content="en">
+      <!-- Item 1: Registration -->
+      <div class="timeline-item" data-animate="scroll">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="timeline-content-wrapper">
+            <div class="timeline-icon">📋</div>
+            <div>
+              <div class="timeline-time">9:00 - 9:30 AM</div>
+              <div class="timeline-title">Registration and Attendance</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Item 2: Methodology Presentation -->
+      <div class="timeline-item" data-animate="scroll">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="timeline-content-wrapper">
+            <div class="timeline-icon">📊</div>
+            <div>
+              <div class="timeline-time">9:30 - 11:10 AM</div>
+              <div class="timeline-title">The Presentation</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Item 3: Questions -->
+      <div class="timeline-item" data-animate="scroll">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="timeline-content-wrapper">
+            <div class="timeline-icon">💬</div>
+            <div>
+              <div class="timeline-time">11:10 - 11:30 AM</div>
+              <div class="timeline-title">Questions and Discussion</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Item 4: Coffee Break -->
+      <div class="timeline-item" data-animate="scroll">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="timeline-content-wrapper">
+            <div class="timeline-icon">☕</div>
+            <div>
+              <div class="timeline-time">11:30 - 11:45 AM</div>
+              <div class="timeline-title">Coffee Break</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Item 5: Keynote Speech - HIGHLIGHTED -->
+      <div class="timeline-item" data-animate="scroll">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="timeline-content-wrapper">
+            <div class="timeline-icon">🎤</div>
+            <div>
+              <div class="timeline-time">11:45 AM - 12:00 PM</div>
+              <div class="timeline-title">Keynote Speech by H.E Dr. Mohamed Farid, Chairman of the Financial Regulatory
+                Authority</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Item 6: Awards - HIGHLIGHTED -->
+      <div class="timeline-item" data-animate="scroll">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="timeline-content-wrapper">
+            <div class="timeline-icon">🏆</div>
+            <div>
+              <div class="timeline-time">12:00 - 12:15 PM</div>
+              <div class="timeline-title">Sustainability and Climate Disclosure Champions</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- ===================================
          FOOTER
          =================================== -->
-    <footer class="footer">
-      <p class="footer-text" data-lang-content="ar">© 2025 الهيئة العامة للرقابة المالية - جميع الحقوق محفوظة</p>
-      <p class="footer-text hidden" data-lang-content="en">© 2025 Financial Regulatory Authority - All Rights Reserved</p>
-    </footer>
-    <script src="./action.js"></script>
-  </body>
+  <footer class="footer">
+    <p class="footer-text" data-lang-content="ar">© 2025 الهيئة العامة للرقابة المالية - جميع الحقوق محفوظة</p>
+    <p class="footer-text hidden" data-lang-content="en">© 2025 Financial Regulatory Authority - All Rights Reserved</p>
+  </footer>
+  <script src="./action.js"></script>
+</body>
+
 </html>
